@@ -63,7 +63,7 @@ export default function Deuda({ data }) {
         <div className="flex gap-3 items-center">
           <CreditCard className="h-5 w-5 text-purple-600" />
           <span className="text-muted-foreground text-sm">
-            Estado actual: {getSituacionBadge(1)}
+            Estado actual: {getSituacionBadge(data.situacion)}
           </span>
         </div>
       </CardFooter>
